@@ -72,12 +72,9 @@ class PushpaCollectionViewLayout: UICollectionViewLayout {
         
         switch firstVisibleIndex {
         case -1:
-            print("Previous index")
             attr.center.x -= deltaOffset + bounds.width/2 + itemSize.width/2 - leftSpace - spacing
         case 0:
-            let d = ensureRange(value: deltaOffset, minimum: -bounds.width, maximum: bounds.width/2 + itemSize.width/2 - leftSpace)
-            print("new delta",d)
-            attr.center.x -= d
+            attr.center.x -= ensureRange(value: deltaOffset, minimum: -bounds.width, maximum: bounds.width/2 + itemSize.width/2 - leftSpace)
         case 1..<maximumVisibleItems:
             attr.center.x -= spacing * percentDelta
             
