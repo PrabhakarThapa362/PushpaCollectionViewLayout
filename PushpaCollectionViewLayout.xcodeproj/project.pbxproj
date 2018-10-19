@@ -14,6 +14,7 @@
 		45676C3C2179E5CB005BE817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45676C3A2179E5CB005BE817 /* LaunchScreen.storyboard */; };
 		45676C442179E66F005BE817 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 45676C432179E66F005BE817 /* .gitignore */; };
 		45676C462179E878005BE817 /* PushpaCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45676C452179E878005BE817 /* PushpaCollectionViewLayout.swift */; };
+		45676C482179EE41005BE817 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45676C472179EE41005BE817 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		45676C3D2179E5CB005BE817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45676C432179E66F005BE817 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		45676C452179E878005BE817 /* PushpaCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushpaCollectionViewLayout.swift; sourceTree = "<group>"; };
+		45676C472179EE41005BE817 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45676C492179F08F005BE817 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,8 @@
 			isa = PBXGroup;
 			children = (
 				45676C432179E66F005BE817 /* .gitignore */,
+				45676C472179EE41005BE817 /* README.md */,
+				45676C492179F08F005BE817 /* LICENSE */,
 				45676C452179E878005BE817 /* PushpaCollectionViewLayout.swift */,
 				45676C302179E5CA005BE817 /* PushpaCollectionViewLayout */,
 				45676C2F2179E5CA005BE817 /* Products */,
@@ -130,6 +135,7 @@
 			files = (
 				45676C442179E66F005BE817 /* .gitignore in Resources */,
 				45676C3C2179E5CB005BE817 /* LaunchScreen.storyboard in Resources */,
+				45676C482179EE41005BE817 /* README.md in Resources */,
 				45676C392179E5CB005BE817 /* Assets.xcassets in Resources */,
 				45676C372179E5CA005BE817 /* Main.storyboard in Resources */,
 			);
