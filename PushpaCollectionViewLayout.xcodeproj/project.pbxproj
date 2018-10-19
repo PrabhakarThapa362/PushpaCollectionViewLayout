@@ -28,6 +28,7 @@
 		45676C472179EE41005BE817 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		45676C492179F08F005BE817 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		45676C4A2179F1D9005BE817 /* pp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pp.gif; sourceTree = "<group>"; };
+		45676C4B217A0907005BE817 /* .swift_version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swift_version; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 				45676C432179E66F005BE817 /* .gitignore */,
 				45676C472179EE41005BE817 /* README.md */,
 				45676C492179F08F005BE817 /* LICENSE */,
+				45676C4B217A0907005BE817 /* .swift_version */,
 				45676C4A2179F1D9005BE817 /* pp.gif */,
 				45676C452179E878005BE817 /* PushpaCollectionViewLayout.swift */,
 				45676C302179E5CA005BE817 /* PushpaCollectionViewLayout */,
