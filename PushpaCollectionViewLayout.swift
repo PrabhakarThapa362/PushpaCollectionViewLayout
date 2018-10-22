@@ -61,8 +61,6 @@ class PushpaCollectionViewLayout: UICollectionViewLayout {
     }
     
     fileprivate func getAttribute(for indexPath:IndexPath) -> UICollectionViewLayoutAttributes {
-        let spacing:CGFloat = 10
-        let leftSpace:CGFloat = 12
         let firstVisibleIndex = indexPath.row - minIndex
         let attr = UICollectionViewLayoutAttributes(forCellWith: indexPath)
         attr.center.x = self.contentOffset.x + bounds.width / 2 + spacing * CGFloat(firstVisibleIndex)
