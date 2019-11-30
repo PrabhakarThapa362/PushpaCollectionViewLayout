@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1            
       - name: iOS - ${{ matrix.destination }}
-        run: set -o pipefail && env NSUnbufferedIO=YES xcodebuild -project "PushpaCollectionViewLayout.xcodeproj" -scheme "PushpaCollectionViewLayout" -destination "${{ matrix.destination }}" clean test | xcpretty
+        run: set -o pipefail && env NSUnbufferedIO=YES xcodebuild -project "PushpaCollectionViewLayout.xcodeproj" -scheme "PushpaCollectionViewLayout" -destination "${{ matrix.destination }}" | xcpretty
